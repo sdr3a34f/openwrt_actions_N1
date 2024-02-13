@@ -18,3 +18,6 @@ echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main"
 
 ## amlogic
 git submodule add https://github.com/ophub/luci-app-amlogic.git package/others/luci-app-amlogic
+
+## 微信/Telegram 推送插件
+git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot feeds/luci/applications/luci-app-pushbot
